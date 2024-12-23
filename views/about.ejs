@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Section */
+header {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-section h2 {
+  margin-top: 30px;
+  font-size: 2rem;
+  color: #00bcd4;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-section ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #555;
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-section ul li:before {
+  content: "✔";
+  color: #00bcd4;
+  position: absolute;
+  left: 0;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+
+.nav-links li a.active {
+  color: #00bcd4;
+}
+
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    
+      <div class="navbar">
+        <a href="#" class="logo">Neeraj Website</a>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/user/signup">SignUp</a></li>
+          <li><a href="/user/signin">SignIn</a></li>
+          <li><a href="/user/about" class="active">About</a></li>
+          
+        </ul>
+      </div>
+    
+  </header>
+
+  
+  <main>
+    <section class="about-section">
+      <div class="container">
+        <h1>About Us</h1>
+        <p>
+          Welcome to My Website! We are dedicated to providing you with the best experience possible. Our team is passionate about delivering high-quality services and engaging content to our audience. 
+        </p>
+        <p>
+          Our mission is to inspire and connect people through creative ideas, innovative solutions, and exceptional customer service. We believe in the power of collaboration and are constantly striving to exceed your expectations.
+        </p>
+        <h2>Our Values</h2>
+        <ul>
+          <li>Customer satisfaction is our priority.</li>
+          <li>Integrity and transparency in everything we do.</li>
+          <li>Innovation and creativity drive our growth.</li>
+          <li>Building strong relationships with our community.</li>
+        </ul>
+        <p>
+          Thank you for choosing us. We look forward to working with you and growing together!
+        </p>
+      </div>
+    </section>
+  </main>
+
+ 
+  <footer>
+    <p>&copy; 2024 Neeraj Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
